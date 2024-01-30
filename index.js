@@ -98,7 +98,7 @@ selectAnswer = (e) => {
 showScore = () => {
     resetState();
     questionElement.innerHTML = `You scored ${score} out of ${questions.length}`
-    nextButton.innerHTML = "Play Again";
+    nextButton.innerHTML = "Take quiz again";
     nextButton.style.display = "block"
 }
 
